@@ -1,0 +1,55 @@
+.customNavbar{
+    padding: 0;
+    z-index: 1;
+    margin-right: 12px;
+    margin-left: 12px;
+
+    &__wrapper{
+        margin: 0;
+    }
+
+    &__nav{
+        .nav-item{
+            background: none;
+            position: relative;
+            margin-right: 1px;
+
+            a.nav-link{
+                position: relative;
+                color: white;
+                padding: 2px 40px 26px 40px;
+                transition: 0.8s;
+                background: none;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+                font-weight: 500;
+                cursor: pointer;
+
+                &::before{
+                    position: absolute;
+                    background: #fff;
+                    display: block;
+                    transition: 0.8s;
+                    top: 100%;
+                    right: 0;
+                    bottom: 0;
+                    left: 0;
+                    z-index: -1;
+                    content: '';
+                }
+
+                &:hover,
+                &.active{
+                    color: #333;
+                    padding: 14px 40px;
+                    transition: 0.4s;
+
+                    &::before{
+                        top: 0;
+                        transition: 0.4s;
+                    }
+                }
+            }
+        }
+    }
+}

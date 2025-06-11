@@ -1,0 +1,29 @@
+.footer{
+    min-height: 25vh;
+    background-color: #393939;
+    color: white;
+
+    &__listTitle {
+        font: normal 18px/18px Roboto Condensed;
+        color: #ffffff;
+        margin-bottom: 21px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+
+    ul li{
+        font-size: 14px;
+        color: #696969;
+        margin-bottom: .75rem;
+
+        a{
+            font-size: 14px;
+            color: #696969;
+            text-decoration: none;
+
+            &:hover {
+                color: #FFF;
+              }
+        }
+    }
+}

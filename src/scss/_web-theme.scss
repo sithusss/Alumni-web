@@ -1,0 +1,39 @@
+@import './variables';
+@import './header';
+@import './footer';
+@import './landing';
+@import './headerNavbar';
+@import './homeCarousel';
+// pages
+@import './pages/scholarships';
+
+
+body{
+//  font-family: 'Roboto Condensed';
+ font-family: 'Roboto';
+}
+
+.pt-1 {
+    padding-top: .25rem;
+  }
+  
+  .bg-black {
+    background-color: $black;
+  }
+
+.customHeading{
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+a{
+  text-decoration: none;
+
+  &:hover {
+    transition: .4s;
+  }
+}
+
+.modal-footer, .modal-header{
+  border: 0;
+}
