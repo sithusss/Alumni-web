@@ -2,7 +2,9 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 const SecIntro = () => {
+    let url = '/under-development';
     return (
+        
         <section className="intro-section">
             <div className="container ">
                 <div className="row">
@@ -21,28 +23,28 @@ const SecIntro = () => {
                         <div className="grid-tile-wrapper">
                             <div className="grid-tile tile-1">
                                 <div className="tile-block">
-                                    <a href={() => false}>
+                                    <a href={url}>
                                         <h5>Our Vision <br />and Mission </h5>
                                     </a>
                                 </div>
                             </div>
                             <div className="grid-tile tile-2">
                                 <div className="tile-block">
-                                    <Link to="/register">
+                                    <Link to={url}>
                                         <h5>Meet Our <br /> Members</h5>
                                     </Link>
                                 </div>
                             </div>
                             <div className="grid-tile tile-3">
                                 <div className="tile-block">
-                                    <Link to="/sholarships">
+                                    <Link to="./scholar-register">
                                         <h5>Scholarship <br /> Programs</h5>
                                     </Link>
                                 </div>
                             </div>
                             <div className="grid-tile tile-4">
                                 <div className="tile-block">
-                                    <a href={() => false}>
+                                    <a href={url}>
                                         <h5>Our<br />  Achievement</h5>
                                     </a>
                                 </div>

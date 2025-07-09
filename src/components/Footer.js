@@ -15,19 +15,21 @@ const Footer = () => {
                         <div className="li-wrapper">
                             <h2 className="footer__listTitle">About Us</h2>
                             <ul>
-                                <li><a href="./">Mission Statement</a></li>
-                                <li><a href="./">History</a></li>
-                                <li><a href="./">Members Directory</a></li>
-                                <li><a href="./">Photo Gallery</a></li>
+                                <li><a href="https://aps.rjt.ac.lk/">Faculty website</a></li>
+                                
+                                
                             </ul>
                         </div>
                     </div>
                     <div className="col">
                         <div className="li-wrapper">
-                            <h2 className="footer__listTitle">Academics</h2>
+                            <h2 className="footer__listTitle">Departments</h2>
                             <ul>
-                                <li><a href="./">Departments</a></li>
-                                <li><a href="./">Guidance</a></li>
+                                <li><a href="https://aps.rjt.ac.lk/biological-sciences/">Biological Science</a></li>
+                                <li><a href="https://aps.rjt.ac.lk/chem/">Chemical Science</a></li>
+                                <li><a href="https://aps.rjt.ac.lk/physical-sciences/">Physical Science</a></li>
+                                <li><a href="https://aps.rjt.ac.lk/department-of-health-promotion/">Health Promotion</a></li>
+                                <li><a href="https://aps.rjt.ac.lk/cs/">Computing</a></li>
                             </ul>
                         </div>
                     </div>
@@ -35,9 +37,7 @@ const Footer = () => {
                         <div className="li-wrapper">
                             <h2 className="footer__listTitle">Events</h2>
                             <ul>
-                                <li><a href="./">Alumni Events</a></li>
                                 <li><a href="./">Facalty Events</a></li>
-                                <li><a href="./">Scholarship Programs</a></li>
                                 <li><a href="./">Our Winnings</a></li>
                             </ul>
                         </div>
@@ -46,7 +46,6 @@ const Footer = () => {
                         <div className="li-wrapper">
                             <h2 className="footer__listTitle">Students</h2>
                             <ul>
-                                <li><a href="./">Member's Area</a></li>
                                 <li><a href="./">Scholarships</a></li>
                             </ul>
                         </div>

@@ -5,6 +5,8 @@ import sImageURL1 from '../images/ig-4.jpg';
 import sImageURL2 from '../images/ig-2.jpg';
 import sImageURL3 from '../images/ig-3.jpg';
 
+
+
 const sImage1 = {
     backgroundImage: `url(${sImageURL1})`,
 }
@@ -15,6 +17,7 @@ const sImage3 = {
     backgroundImage: `url(${sImageURL3})`,
 }
 
+
 class HomeCarosel extends Component {
     constructor(props) {
         super(props);
@@ -24,8 +27,8 @@ class HomeCarosel extends Component {
         };
     }
 
-    render() {   
-        let url = "./";
+    render() {
+        let url = '/under-development'; // URL for the "Read More" link
 
         return (
             <div className="h-100">
