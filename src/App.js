@@ -10,6 +10,7 @@ import ContactUs from './components/pages/ContactUs';
 import RegisterForm from './components/RegisterForm';
 import ScholarViewTable from './components/ScholarViewTable';
 import ScholarRegisterForm from './components/ScholarRegisterForm';
+import UnderDevelopment from './components/UnderDevelopment'; // Assuming this is a placeholder for under-development pages
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route path="/register" element={<RegisterForm />} />
           <Route path="/admin" element={<ScholarViewTable />} />
           <Route path="/scholar-register" element={<ScholarRegisterForm />} />
+          <Route path='/under-development' element={<UnderDevelopment />} />
 
         </Routes>
       </Layout>     
